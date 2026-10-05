@@ -1,0 +1,32 @@
+remote_theme: ralferlebach/github-pages-theme@main
+
+plugins:
+  - jekyll-remote-theme
+
+title: "Moodle FlexAccess Plugin-Familie"
+description: "Flexible, kontrollierte und niedrigschwellige Zugänge zu Moodle-Kursen."
+lang: de
+
+repository: "ralferlebach/Moodle-FlexAccess-Plugins"
+baseurl: "/Moodle-FlexAccess-Plugins"
+
+owner:
+  name: "Dr. Ralf Erlebach"
+  tagline: "Lerntechnologien & Technologisches Lernen"
+  url: "https://www.ralferlebach.de/"
+
+project:
+  kind: "Moodle Plugin-Familie"
+  tagline: "Flexible, kontrollierte und niedrigschwellige Zugänge zu Moodle-Kursen."
+  status: "Aktive Entwicklung"
+  license: "GPL-3.0-or-later"
+  moodle: "4.5+"
+
+navigation:
+  - label: "Homepage"
+    url: "https://www.ralferlebach.de/"
+  - label: "GitHub"
+    url: "https://github.com/ralferlebach"
+
+markdown: kramdown
+highlighter: rouge
